@@ -45,8 +45,6 @@ The hardware is mounted on an Arduino UNO (or a pin-compatible board) and consis
 
 > Source files were created in **EasyEDA Pro**.
 
-*(Adjust the paths above to match your actual folder layout.)*
-
 ---
 
 ## Getting started
