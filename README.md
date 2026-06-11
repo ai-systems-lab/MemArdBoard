@@ -13,7 +13,7 @@ The system is operated through **[MemriBoard](https://github.com/neurocomputer/M
 The hardware is mounted on an Arduino UNO (or a pin-compatible board) and consists of two stacked PCBs:
 
 - **Signal board** — handles signal generation and read-out. Suitable for working with individual memristive cells. Built around SPDT analog switches, a 12-bit DAC (MCP4921), an op-amp buffer/amplifier stage (AD8616), and an ADC for the read path.
-- **Switching board** — routing/commutation circuit for addressing arrays. Suitable for working with active **1T1R crossbar arrays** (up to 32×8) via analog multiplexers and shift-register control.
+- **Commutation board** — routing/commutation circuit for addressing arrays. Suitable for working with active **1T1R crossbar arrays** (up to 32×8) via analog multiplexers and shift-register control.
 
 ---
 
@@ -39,8 +39,8 @@ The hardware is mounted on an Arduino UNO (or a pin-compatible board) and consis
 |------|-------------|
 | `signal-board/gerbers/` | Gerber files for the signal board (for PCB manufacturing) |
 | `signal-board/schematic/` | Schematic of the signal board (PDF + source) |
-| `commutation-board/gerbers/` | Gerber files for the switching board |
-| `commutation-board/schematic/` | Schematic of the switching board (PDF + source) |
+| `commutation-board/gerbers/` | Gerber files for the commutation board |
+| `commutation-board/schematic/` | Schematic of the commutation board (PDF + source) |
 | `docs/` | Additional documentation, images, BOM |
 
 > Source files were created in **EasyEDA Pro**.
